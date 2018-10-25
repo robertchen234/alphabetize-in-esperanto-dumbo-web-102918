@@ -15,7 +15,9 @@ def alphabetize(arr)
     end
     new_arr << phrase
     
-    new_arr = new_arr.sort.reverse
+    new_arr
+    
+    
   # new_arr.collect do |words|
   #   j = 0
   #   while j < words.length
@@ -27,7 +29,6 @@ def alphabetize(arr)
   #     words[j] = "ŭ" if words[j] == "u"
   #     j += 1
   #   end
-  new_arr
 
   # end
   end
