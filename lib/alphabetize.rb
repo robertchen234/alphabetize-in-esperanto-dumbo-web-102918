@@ -28,5 +28,5 @@ def alphabetize(arr)
       phrase[i] = "ŭ" if phrase[i] == "u"
       i += 1
     end
-  
+  new_arr
 end
