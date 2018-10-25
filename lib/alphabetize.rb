@@ -9,8 +9,8 @@ def alphabetize(arr)
       "ĝ" = "g" if phrase[i].include?("ĝ")
       "ĥ" = "h" if phrase[i].include?("ĥ")
       "ĵ" = "j" if phrase[i].include?("ĵ")
-      "ŝ" = "s" if word.include?("ŝ")
-      "ŭ" = "u" if word.include?("ŭ")
+      "ŝ" = "s" if phrase[i].include?("ŝ")
+      "ŭ" = "u" if phrase[i].include?("ŭ")
       new_arr << phrase
       i += 1
   end
