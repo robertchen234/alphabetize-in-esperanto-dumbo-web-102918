@@ -13,6 +13,7 @@ def alphabetize(arr)
       "ŭ" = "u" if phrase[i].include?("ŭ")
       new_arr << phrase
       i += 1
+    end
   end
   
   new_arr
