@@ -5,12 +5,12 @@ def alphabetize(arr)
   arr.each do |phrase|
     i = 0 
     while i < phrase.length
-      "ĉ" = "c" if phrase[i].include?("ĉ")
-      "ĝ" = "g" if phrase[i].include?("ĝ")
-      "ĥ" = "h" if phrase[i].include?("ĥ")
-      "ĵ" = "j" if phrase[i].include?("ĵ")
-      "ŝ" = "s" if phrase[i].include?("ŝ")
-      "ŭ" = "u" if phrase[i].include?("ŭ")
+      "ĉ" = "c" if phrase[i] == "ĉ"
+      "ĝ" = "g" if phrase[i] == "ĝ"
+      "ĥ" = "h" if phrase[i] == "ĥ"
+      "ĵ" = "j" if phrase[i] == "ĵ"
+      "ŝ" = "s" if phrase[i] == "ŝ"
+      "ŭ" = "u" if phrase[i] == "ŭ"
       new_arr << phrase
       i += 1
     end
