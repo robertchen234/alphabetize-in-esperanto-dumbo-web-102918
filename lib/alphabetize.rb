@@ -15,5 +15,3 @@ def alphabetize(arr)
   puts new_arr
   
 end
-
-alphabetize(["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"])
