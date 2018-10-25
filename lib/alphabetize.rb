@@ -1,5 +1,6 @@
 def alphabetize(arr)
-  arr.map do |word|
+  new_arr = []
+  arr.each do |word|
     
-  arr.sort
+  end
 end
