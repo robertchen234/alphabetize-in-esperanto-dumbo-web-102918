@@ -27,7 +27,7 @@ def alphabetize(arr)
   #     words[j] = "ŭ" if words[j] == "u"
   #     j += 1
   #   end
-  # new_arr
+  new_arr
 
   # end
   end
