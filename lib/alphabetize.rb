@@ -14,9 +14,9 @@ def alphabetize(arr)
       i += 1
     end
     new_arr << phrase
-  
-  new_arr.collect do |words|
+    
     new_arr.sort
+  new_arr.collect do |words|
     j = 0
     while j < words.length
       words[j] = "ĉ" if words[j] == "c"
