@@ -7,12 +7,12 @@ def alphabetize(arr)
     i = 0 
 
     while i < phrase.length
-      phrase[i] = "c_" if phrase[i] == "ĉ"
-      phrase[i] = "g_" if phrase[i] == "ĝ"
-      phrase[i] = "h_" if phrase[i] == "ĥ"
-      phrase[i] = "j_" if phrase[i] == "ĵ"
-      phrase[i] = "s_" if phrase[i] == "ŝ"
-      phrase[i] = "u_" if phrase[i] == "ŭ"
+      phrase[i] = "C" if phrase[i] == "ĉ"
+      phrase[i] = "G" if phrase[i] == "ĝ"
+      phrase[i] = "H" if phrase[i] == "ĥ"
+      phrase[i] = "J" if phrase[i] == "ĵ"
+      phrase[i] = "S" if phrase[i] == "ŝ"
+      phrase[i] = "U" if phrase[i] == "ŭ"
       i += 1
     end
     
@@ -27,12 +27,12 @@ def alphabetize(arr)
     j = 0
     
     while j < words.length
-      words[j] = "ĉ" if words[j] == "c_"
-      words[j] = "ĝ" if words[j] == "g_"
-      words[j] = "ĥ" if words[j] == "h_"
-      words[j] = "ĵ" if words[j] == "j_"
-      words[j] = "ŝ" if words[j] == "s_"
-      words[j] = "ŭ" if words[j] == "u_"
+      words[j] = "ĉ" if words[j] == "C"
+      words[j] = "ĝ" if words[j] == "G"
+      words[j] = "ĥ" if words[j] == "J"
+      words[j] = "ĵ" if words[j] == "J"
+      words[j] = "ŝ" if words[j] == "S"
+      words[j] = "ŭ" if words[j] == "U"
       j += 1
     end
 
