@@ -5,7 +5,7 @@ def alphabetize(arr)
   arr.each do |word|
     ĉ = c if word.include?(ĉ)
     ĝ = c if word.include?(ĝ)
-    ĉ = c if word.include?(ĉ)
+    ĥ = c if word.include?(ĥ)
     ĉ = c if word.include?(ĉ)
     ĉ = c if word.include?(ĉ)
     ĉ = c if word.include?(ĉ)
