@@ -19,13 +19,13 @@ def alphabetize(arr)
   new_arr.collect do |words|
     new_arr.sort
     j = 0
-    while j < phrase.length
-      phrase[j] = "ĉ" if phrase[j] == "c"
-      phrase[j] = "ĝ" if phrase[j] == "g"
-      phrase[j] = "ĥ" if phrase[j] == "h"
-      phrase[j] = "ĵ" if phrase[j] == "j"
-      phrase[j] = "ŝ" if phrase[j] == "s"
-      phrase[j] = "ŭ" if phrase[j] == "u"
+    while j < words.length
+      words[j] = "ĉ" if words[j] == "c"
+      words[j] = "ĝ" if words[j] == "g"
+      words[j] = "ĥ" if words[j] == "h"
+      words[j] = "ĵ" if words[j] == "j"
+      words[j] = "ŝ" if words[j] == "s"
+      words[j] = "ŭ" if words[j] == "u"
       j += 1
     end
   new_arr
