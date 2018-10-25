@@ -16,4 +16,4 @@ def alphabetize(arr)
   
 end
 
-alphabetize(arr)
+alphabetize(["mi amas vin", "bonan matenon", "pacon", "ĉu vi parolas esperanton"])
