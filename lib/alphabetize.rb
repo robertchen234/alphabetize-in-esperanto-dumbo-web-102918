@@ -11,11 +11,11 @@ def alphabetize(arr)
       phrase[i] = "j" if phrase[i] == "ĵ"
       phrase[i] = "s" if phrase[i] == "ŝ"
       phrase[i] = "u" if phrase[i] == "ŭ"
-      new_arr << phrase
       i += 1
     end
+    new_arr << phrase
   end
   
-  new_arr
+  new_arr.sort
   
 end
