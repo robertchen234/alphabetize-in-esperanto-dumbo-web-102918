@@ -1,6 +1,11 @@
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
 def alphabetize(arr)
+
+  arr.sort_by do |phrase|
+    phrase.chars.collect do |letter|
+      ESPERANTO_ALPHABET.index(letter)
+    end
+  end
   
-  special = { 'ĉ' => 'c', 'ĝ' => 'g', 'ĥ' => 'h', 'ĵ' => 'j', 'ŝ' => 's', 'ŭ' => 'u' }
-  
-  arr.each do |
 end
