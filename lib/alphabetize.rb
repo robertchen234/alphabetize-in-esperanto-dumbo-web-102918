@@ -7,7 +7,7 @@ def alphabetize(arr)
     ĝ = c if word.include?(ĝ)
     ĥ = c if word.include?(ĥ)
     ĵ = c if word.include?(ĵ)
-    ĉ = c if word.include?(ĉ)
+    ŝ = c if word.include?(ŝ)
     ĉ = c if word.include?(ĉ)
     new_arr << word
   end
