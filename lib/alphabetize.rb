@@ -1,5 +1,7 @@
 def alphabetize(arr)
   
+  special = {
+  
   original = ['ĉ','ĝ','ĥ','ĵ','ŝ','ŭ']
   replacement = ['c_','g_','h_','j_','s_','u_']
   
