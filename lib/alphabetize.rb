@@ -12,6 +12,6 @@ def alphabetize(arr)
     new_arr << word
   end
   
-  puts new_arr
+  new_arr
   
 end
