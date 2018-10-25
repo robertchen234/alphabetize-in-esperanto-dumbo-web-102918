@@ -29,4 +29,5 @@ def alphabetize(arr)
       i += 1
     end
   new_arr
+  end
 end
