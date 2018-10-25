@@ -20,10 +20,12 @@ def alphabetize(arr)
     
   end
   
-  new_arr.sort
+  new_arr = new_arr.sort
   
-    new_arr.collect do |words|
+  new_arr.collect do |words|
+    
     j = 0
+    
     while j < words.length
       words[j] = "ĉ" if words[j] == "c"
       words[j] = "ĝ" if words[j] == "g"
@@ -35,5 +37,7 @@ def alphabetize(arr)
     end
 
   end
+  
+  new_arr
   
 end
