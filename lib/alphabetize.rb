@@ -4,12 +4,16 @@ def alphabetize(arr)
   
   arr.each do |word|
     ĉ = c if word.include?(ĉ)
-    ĝ = c if word.include?(ĝ)
-    ĥ = c if word.include?(ĥ)
-    ĵ = c if word.include?(ĵ)
-    ŝ = c if word.include?(ŝ)
-    ĉ = c if word.include?(ĉ)
+    ĝ = g if word.include?(ĝ)
+    ĥ = h if word.include?(ĥ)
+    ĵ = j if word.include?(ĵ)
+    ŝ = s if word.include?(ŝ)
+    ŭ = u if word.include?(ŭ)
     new_arr << word
   end
   
+  puts new_arr
+  
 end
+
+alphabetize(arr)
