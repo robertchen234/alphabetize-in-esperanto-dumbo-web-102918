@@ -2,9 +2,9 @@ def alphabetize(arr)
   
   new_arr = []
   
-  arr.each do |word|
+  arr.each do |phrase|
     i = 0 
-    while i < word.length
+    while i < phrase.length
       "ĉ" = "c" if word.include?("ĉ")
       "ĝ" = "g" if word.include?("ĝ")
       "ĥ" = "h" if word.include?("ĥ")
