@@ -16,6 +16,17 @@ def alphabetize(arr)
     new_arr << phrase
   end
   
-  new_arr.sort
+  new_arr.collect do |words|
+    new_arr.sort
+    i = 0
+    while i < phrase.length
+      phrase[i] = "ĉ" if phrase[i] == "c"
+      phrase[i] = "ĝ" if phrase[i] == "g"
+      phrase[i] = "ĥ" if phrase[i] == "h"
+      phrase[i] = "ĵ" if phrase[i] == "j"
+      phrase[i] = "ŝ" if phrase[i] == "s"
+      phrase[i] = "ŭ" if phrase[i] == "u"
+      i += 1
+    end
   
 end
