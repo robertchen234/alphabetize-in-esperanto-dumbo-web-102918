@@ -1,10 +1,10 @@
-ESPERANTO = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+e = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
 
   arr.sort_by do |phrase|
     phrase.chars.collect do |letter|
-      ESPERANTO.index(letter)
+      e.index(letter)
     end
   end
   
