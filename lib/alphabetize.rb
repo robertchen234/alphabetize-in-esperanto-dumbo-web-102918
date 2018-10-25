@@ -15,7 +15,7 @@ def alphabetize(arr)
     end
     new_arr << phrase
     
-    new_arr.sort
+    
     
     
   # new_arr.collect do |words|
@@ -32,4 +32,5 @@ def alphabetize(arr)
 
   # end
   end
+  new_arr.sort
 end
